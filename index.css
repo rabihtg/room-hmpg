@@ -207,7 +207,7 @@ picture {
     z-index: 999;
     padding: 0 2rem;
     font-weight: 700;
-    transform: translateY(-110%);
+    transform: translateY(-101%);
     color: hsl(var(--Black));
     align-items: center;
     justify-content: flex-end;
@@ -216,6 +216,7 @@ picture {
   }
   .nav.on {
     transform: none;
+    transition: transform 300ms ease-in;
   }
   .menu-shadow {
     position: fixed;
